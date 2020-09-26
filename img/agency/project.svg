@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="30" viewBox="0 0 31 30">
+    <defs>
+        <path id="68mdg8bjka" d="M0 0H37V40H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-674 -755) translate(671 750)">
+                <mask id="4cfj2q164b" fill="#fff">
+                    <use xlink:href="#68mdg8bjka"/>
+                </mask>
+                <text fill="#C08800" font-family="Montserrat-Bold, Montserrat" font-size="72" font-weight="bold" mask="url(#4cfj2q164b)">
+                    <tspan x="3" y="86">*</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

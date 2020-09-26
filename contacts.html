@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<link rel="shortcut icon" type="image/x-icon" href="logo.svg" />
+<meta name="description" content="студия дизайна и разработки сайтов, лендингов, мобильных приложений" />
+<meta name="keywords" content="дизайн сайта, лендинг, уникальный дизайн, веб-разработка, разработка мобильных приложений" />
+<title>Студия дизайна 21Rabbits</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+</head>
+<body>
+<header class="agency__navigation">
+  <div class="container-fluid">
+    <div class="container">
+    <nav  class="navbar navbar-default agency__navigation">
+      
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            Меню
+      </button>    
+      <a class="navbar-brand" href="index.html">
+        <img class="black_white_logo" src="img/logo.svg" alt="21Rabbits">
+         <span><span class="brand_part">21</span>Rabbits</span>
+      </a> 
+    <div class="collapse navbar-collapse main_page_navigation" id="bs-example-navbar-collapse-1">
+     <ul class="nav navbar-nav">
+            <li class="menus">
+              <a class="first_point active_page" href="agency.html">Агентство</a>
+              <span class="underlined_menu main_page"></span>
+            </li>
+            <li>
+              <a href="service.html">Услуги</a>              
+            </li>                
+            <li> 
+              <a  href="service.html">Проекты</a>
+            </li>                               
+            <li>
+              <a  href="contacts.html">Контакты</a>              
+            </li>
+            <li>
+                <a href="projects.html">English</a>              
+            </li>        
+      </ul>
+    </div>
+    </nav>
+  </div>
+</div>
+</header>
+
+<div class="container-fluid contacts_page">
+   <div class="container">
+    <h2 class="contacts__headline">Достигайте результата с нами!</h2>
+    <p class="contacts_data_left">21rabbits@mail.ru</p>
+      <a class="contacts_data_right" href="tel:+79602592452">
+      +7-960-259-24-52</a>
+
+
+      <div class="col-md-12">
+        <div class="col-md-5">
+
+        </div>
+
+
+        <div class="col-md-7">
+
+
+           <div class="contacts_form">
+  
+ 
+   
+   <form id="contacts_form" class="contacts__form"  method="POST">
+ 
+      <div class="col-md-6 col-xs-6 divided_input">
+         <label>
+         <input class="contacts_input required_data contacts_small_input_left" name="user_mail" type="email" required="required" /> 
+          <div class="label-text">Имя</div>
+           </label>
+        </div>
+       <div class="col-md-6 col-xs-6 divided_input">
+        <label> 
+         <input class="contacts_input required_data contacts_small_input_right"  name="user_phone" type="tel" required="required" />
+          <div class="label-text">Телефон</div>
+        </label>
+       </div>
+
+           <label>
+    <input class="contacts_input required_data" name="user_name" type="text" required="required" />
+    <div class="label-text">Email</div>
+    </label>
+
+
+      <!--    <input class="contacts_input required_data contacts_small_input_right"  name="comments" type="text" required="required"/>
+ -->
+
+
+
+
+          <div class="label-text">Сообщение</div>
+       
+
+
+        <textarea rows="5" cols="45" name="text"></textarea>
+
+
+        <button id="send_letter" class="contacts_form_submit draw maker service_form" type="submit">Отправить</button>           
+</form> 
+<div class="error"></div>
+</div>
+
+        </div>
+
+
+      </div>
+
+
+
+     
+
+
+
+</div>
+ 
+<footer class="site_footer">
+      <div class="container">
+        <p class="footer_text"> © 2018-2020 21Rabbits. All Rights Reserved</p>
+      </div>
+    </footer> 
+<script src="js/juery.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/jquery.maskedinput.min.js" ></script>
+<script>
+//Маска для телефона
+$(function() {
+$.mask.definitions['~']='[+-]';    
+$("input[type='tel']").mask('+7   (999)  999-99-99');  
+});  
+$(document).on('click', 'input[type="tel"]', function(){
+$(this).focus();
+});
+</script>
+<script src="js/contacts.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

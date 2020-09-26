@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="167" height="167" viewBox="0 0 167 167">
+    <defs>
+        <path id="ihrlq4uvda" d="M0 0H187V176H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-567 -817) translate(553 810)">
+                <mask id="4g1r9og9ob" fill="#fff">
+                    <use xlink:href="#ihrlq4uvda"/>
+                </mask>
+                <g mask="url(#4g1r9og9ob)">
+                    <g transform="rotate(-30 103.562 60.876)">
+                        <circle cx="83.5" cy="83.5" r="83.5" fill="#DCD5C8"/>
+                        <text font-family="HagridTextTrial-Extrabold, Hagrid Text Trial" font-size="21" font-weight="600" letter-spacing=".175" transform="rotate(20 83.5 83.5)">
+                            <tspan x="26" y="93" fill="#000">BEHANCE</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

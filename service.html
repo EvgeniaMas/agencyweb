@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="format-detection" content="telephone=no">
-<link rel="shortcut icon" type="image/x-icon" href="logo.svg" />
+<link rel="shortcut icon" type="image/x-icon" href="img/logo.svg" />
 <meta name="description" content="студия дизайна и разработки сайтов, лендингов, мобильных приложений" />
 <meta name="keywords" content="дизайн сайта, лендинг, уникальный дизайн, веб-разработка, разработка мобильных приложений" />
 <title>Студия дизайна 21Rabbits</title>
@@ -14,169 +14,188 @@
 
 </head>
 <body>
-<header class="agency__navigation">
+<div class="projects_page">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="main__navigation">
   <div class="container-fluid">
     <div class="container">
-    <nav  class="navbar navbar-default agency__navigation">
-      
+    <nav id="main_page_navigation" class="navbar navbar-default">      
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span id="up_panel" class="icon-bar"></span>
-            <span id="down_panel" class="icon-bar"></span>
+            Меню
       </button>      
       <a class="navbar-brand" href="index.html">
         <img class="black_white_logo" src="img/logo.svg" alt="21Rabbits">
-         <span>21Rabbits</span>
+         <span><span class="brand_part">21</span>Rabbits</span>
       </a> 
     <div class="collapse navbar-collapse main_page_navigation" id="bs-example-navbar-collapse-1">
       <ul id="transparent_nav" class="nav navbar-nav">
             <li class="menus">
-              <a class="first_point active_page" href="index.html">Агентство</a>
+              <a class="first_point active_page" href="agency.html">Агентство</a>
               <span class="underlined_menu main_page"></span>
             </li>
             <li>
-              <a href="service.html">Услуги</a>              
+             <a href="service.html">Услуги</a>                          
             </li>                
             <li> 
-              <a  href="service.html">Проекты</a>
+              <a  href="projects.html">Проекты</a>
             </li>                               
             <li>
               <a  href="contacts.html">Контакты</a>              
             </li>
             <li>
-                <a href="projects.html">English</a>              
+                <a href="#">English</a>              
             </li>        
       </ul>
     </div>
     </nav>
   </div>
 </div>
-</header>
-<!-- <div class="wrapper"> -->
+</header>  
 
-  <div class="container-fluid agency__first_block">
 
-<div class="container">
 
-<h2 class="agency__title" >Мы предлагаем вашему бизнесу стратегию, дизайн и технологии</h2>
+
+
+<div class="container-fluid wrapper">
+	<div class="container">
+<ul class="nav nav-tabs">
+  <li class="active">
+    <a class="service_main_menu inline_tabs" id="service_first_tab" data-toggle="tab" href="#web">Web</a>
+  </li>
+  <li>
+    <a class="service_main_menu inline_tabs" data-toggle="tab" href="#branding">Брендинг</a>
+  </li>
+
+</ul>
+</div>
+<div class="tab-content">
+  <div class="tab-pane active" id="web">
+    <div class="container">
+  	  <div class="col-md-12">
+        <div class="col-md-7">
+           <p class="service_web_description">Создаём современные площадки для решения  маркетинговых задач, которые удобны, имеют приятный и вовлекающий дизайн для посетителей.
+            <br><br> 
+           Наши сайты показывают хорошую конверсию, быстро продвигаются, отличаются уникальной визуализацией.</p>
+         </div>
+         <div class="col-md-5 service_web_gallery">        
+           <img class="service_web_gallery_img" src="img/service_web.png" align="21Rabbits"> 
+          </div><!-- col-5 -->
+       </div> <!-- col-12 -->  
+     <img class="service_web_gallery_img" src="img/service_web.png" align="21Rabbits">
+     </div>  <!-- container -->
 
 <div class="col-md-12">
- <div class="col-md-4">
-    <p class="agency_first_block"> Основным видом деятельности компании является создание и продвижение интернет-ресурсов. Мы исследуем и анализируем специфику рынка, помогаем воплотить стратегию вашего бизнеса.</p> 
- </div>
+ <div class="col-md-7">
+  <div class="tab-content">
+   <div class="tab-pane active" id="shop">    	
+     <p class="web_title">01. Интернет-магазин</p>
+     <p class="web_text" >Разработка с нуля. Многоуровневый каталог товаров, корзина, личный кабинет и другие услуги. 
+      <br><br>
+      
+     </p>
+   </div><!-- tab  -->
+   <div class="tab-pane" id="site">
+     <p class="web_title">02. Корпоративный сайт</p>
+    <p class="web_text" >Разработка с нуля. Многоуровневый каталог товаров, корзина, личный кабинет и другие услуги. 
+      <br><br>
+      Текст
+     </p>
+   </div><!-- tab  -->
+    <div class="tab-pane" id="landing">
+     <p class="web_title">03. Landing Page</p>
+      <p class="web_text" >Разработка с нуля. Многоуровневый каталог товаров, корзина, личный кабинет и другие услуги. 
+      <br><br>
+      Новые методики для привлечения и удержания внимания потенциальных клиентов.
+     </p>
+   </div><!-- tab  --> 
+    <div class="tab-pane" id="visit">
+      <p class="web_title">04. Сайт-визитка</p>
+      <p class="web_text" >Разработка с нуля. Многоуровневый каталог товаров, корзина, личный кабинет и другие услуги. 
+      <br><br>
+      Наши сайты не шаблонны, интересны, понятны и удобны для посетителей. Включают маркетинговые методики для привлечения и удержания внимания потенциальных клиентов.
+     </p>
+   </div><!-- tab  -->  
+  </div><!-- tab-content  --> 
+ </div> <!-- 7 col -->
+ <div class="col-md-5">
+  <ul class="nav nav-tabs blocked_tabs">
+	  <li class="active">
+	    <a class="services_web_menu" data-toggle="tab" href="#shop">Интернет-магазин</a>
+	  </li>
+	  <li>
+	    <a class="services_web_menu" data-toggle="tab" href="#site">Корпоративный сайт</a>
+	  </li>
 
-  <div class="col-md-4">
-    <p class="agency_first_block"> Для нас каждый проект имеет большое значение. Наш подход - построение долгосрочных партнёрских отношений с компаниями, которые хотят развивать свой продукт.</p>
- </div>
-  <div class="col-md-4">
-    
- </div>
+	  <li>
+	    <a class="services_web_menu" data-toggle="tab" href="#landing">Landing Page</a>
+	  </li>
+	  <li>
+	    <a class="services_web_menu" data-toggle="tab" href="#visit">Сайт-визитка</a>
+	  </li>
+   </ul>
+</div><!-- col-md-5 -->
+</div> <!-- col-md-12 -->
 
 
+
+   </div>  <!-- tab -->
   
-</div>
-
-</div>
-</div>
-
-
-<div class="container">
-<div class="col-md-12">
-
-<div class="col-md-6">
-<p class="worker_name">Вячеслав Рытов</p>
-<p class="worker_position">управляющий директор</p>
-
-
-</div>
-<div class="col-md-6">
-
-<p class="worker_name">Дарья Долженко</p>
-<p class="worker_position">ведущий дизайнер</p>
-
-
-</div>
-
-</div>
-
-</div>
-
-<h2> Наша цель - выстроить прозрачные и крепкие отношения
-
-</h2>
 
 
 
 
-  <div class="row">
-   <div class="col-md-12 vertical-tab-container">
-   <div class="vertical-tab-menu">
-    <div class="list-group">
-     <a href="#" class="list-group-item active text-center"> 
-       Брифинг
-     </a>
-     <a href="#" class="list-group-item text-center"> 
-        Исследование
-     </a>
-     <a href="#" class="list-group-item text-center"> 
-       Проектирование
-     </a>
-     <a href="#" class="list-group-item text-center"> 
-        Дизайн
-     </a>
-     <a href="#" class="list-group-item text-center"> 
-        Программирование
-     </a>
-     <a href="#" class="list-group-item text-center"> 
-        Сдача проекта
-     </a>
-    </div><!-- list -->
-   </div><!-- 6 column --> 
- <div class="vertical-tab">
-     <div class="vertical-tab-content active text-center">
-        <p class="service_description">111111.</p>
-            
-     </div>     
-     <div class="vertical-tab-content text-center">
-       <p class="service_description">Мы уделяем большое внимание каждому этапу: выбору стилистического оформления, основных тонов, динамичности лендинга, текстовому наполнению. Применяем инновационные идеи для разработки заметных проектов, эффективных с маркетинговой стороны. Каждый лендинг создаётся с учётом специфики компании, целевой аудитории и конкретных задач.</p>
-     </div>     
-     <div class="vertical-tab-content text-center">
-        <p class="service_description">Сначала мы изучаем Ваших клиентов, их чувства и потребности, а затем создаём айдентику, вызывающую нужные эмоции. Каждая наша разработка – это кропотливый труд дизайнеров, маркетологов и директоров студии.</p>
-            
-     </div>
-     <div class="vertical-tab-content text-center">
-         <p class="service_description">Абсолютно свежие подходы и идеи, которые выделят Ваш бизнес. Мы прислушиваемся ко всем пожеланиям, учитываем интересы Ваших потенциальных клиентов и применяем свои инновации. Создаём яркие, работающие брендинги для смелых людей. Заказывайте брендинг вместе с разработкой веб-сайта или отдельно.</p>
-            
-       </div><!-- /.vertical-tab -->
-
-            <div class="vertical-tab-content text-center">
-         <p class="service_description">Абсолютно свежие подходы и идеи, которые выделят Ваш бизнес. Мы прислушиваемся ко всем пожеланиям, учитываем интересы Ваших потенциальных клиентов и применяем свои инновации. Создаём яркие, работающие брендинги для смелых людей. Заказывайте брендинг вместе с разработкой веб-сайта или отдельно.</p>
-            
-       </div><!-- /.vertical-tab -->
-
-
-            <div class="vertical-tab-content text-center">
-         <p class="service_description">Абсолютно свежие подходы и идеи, которые выделят Ваш бизнес. Мы прислушиваемся ко всем пожеланиям, учитываем интересы Ваших потенциальных клиентов и применяем свои инновации. Создаём яркие, работающие брендинги для смелых людей. Заказывайте брендинг вместе с разработкой веб-сайта или отдельно.</p>
-            
-       </div><!-- /.vertical-tab -->
 
 
 
-      </div><!-- /.vertical-tab-container -->
-     </div> <!-- 12 column -->
-</div>
-</div>
+   <div class="tab-pane" id="branding">
+      8999999999999999999999999999
+    </div><!-- tab  -->
+   </div><!-- tab_content --> 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+</div> <!-- container-fluid -->
 
 </div>
 
-
-<footer class="site_footer">
+<!-- <footer class="site_footer">
       <div class="container">
         <p class="footer_text"> © 2018-2020 21Rabbits. All Rights Reserved</p>
       </div>
-</footer>
+</footer>  -->
 
 
 
@@ -184,8 +203,7 @@
 
 
  <script src="js/juery.js"></script>
-<script src="js/swipe.js"></script>
-<script src="js/menu.js"></script> 
-<script src="js/index.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>

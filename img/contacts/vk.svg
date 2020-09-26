@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" viewBox="0 0 90 90">
+    <defs>
+        <path id="3mqhekafaa" d="M0 0H94V95H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-142 -894) translate(140 891)">
+                <mask id="4g00aozkcb" fill="#fff">
+                    <use xlink:href="#3mqhekafaa"/>
+                </mask>
+                <g mask="url(#4g00aozkcb)">
+                    <g transform="translate(2 3)">
+                        <circle cx="45" cy="45" r="45" fill="#DCD5C8"/>
+                        <text font-family="HagridTextTrial-Extrabold, Hagrid Text Trial" font-size="21" font-weight="600" letter-spacing=".175" transform="rotate(10 45.5 45.5)">
+                            <tspan x="29" y="55" fill="#000">VK</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
