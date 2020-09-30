@@ -27,7 +27,6 @@ font-style:normal;
 font-weight:bold;
 font-display: swap;
 }
-
 @font-face{font-family:"Montserrat_Extrabold";
 src:url("../fonts/MontserratExtraBold/montserrat_extrabold.eot");
 src:url("../fonts/MontserratExtraBold/montserrat_extrabold.eot.eot?#iefix") format('embeddedopentype'),
@@ -40,12 +39,6 @@ font-style:normal;
 font-weight:bold;
 font-display: swap;
 }
-
-
-
-
-
-
 @font-face{font-family:"Montserrat_Medium";
 src:url("../fonts/Montserrat_Medium/Montserrat-Medium.eot");
 src:url("../fonts/Montserrat_Medium/Montserrat-Medium.eot?#iefix") format('embeddedopentype'),
@@ -58,7 +51,6 @@ font-style:normal;
 font-weight:normal;
 font-display: swap;
 }
-
 @font-face{font-family:"Montserrat-Light";
 src:url("../fonts/Montserrat-Light/Montserrat_Light.eot");
 src:url("../fonts/Montserrat-Light/Montserrat-Light.eot?#iefix") format("embeddedopentype"),
@@ -71,10 +63,6 @@ font-style:normal;
 font-weight:normal;
 font-display: swap;
 }
-
-
-
-
 @font-face{font-family: "HagridTextTrial-Bold";
 src:url("../fonts/HagridTextTrial-Bold/Hagrid-Text-Bold-trial.eot");
 src:url("../fonts/HagridTextTrial-Bold/Hagrid-Text-Bold-trial.eot?#iefix") format('embeddedopentype'),
@@ -87,7 +75,6 @@ font-style:normal;
 font-weight:bold;
 font-display: swap;
 }
-
 @font-face{font-family: "HagridTextTrial-Extrabold";
 src:url("../fonts/HagridTextTrial-Extrabold/Hagrid-Text-Extrabold-trial.eot");
 src:url("../fonts/HagridHagridTextTrial-Extrabold/Hagrid-Text-Extrabold-trial.eot?#iefix") format('embeddedopentype'),
@@ -101,6 +88,31 @@ font-weight:bold;
 font-display: swap;
 }
 
+
+
+@font-face{font-family: "HagridText-Medium";
+src:url("../fonts/HagridText-Medium/HagridText-Medium.eot");
+src:url("../fonts/HagridText-Medium/HagridText-Medium.eot?#iefix") format('embeddedopentype'),
+url("../fonts/HagridText-Medium/HagridText-Medium.woff2") format("woff2"),
+url("../fonts/HagridText-Medium/HagridTextTrial-Medium.woff") format("woff"),
+url("../fonts/HagridText-Medium/HagridText-Medium.ttf") format("truetype"),
+url("../fonts/HagridText-Medium/HagridTextTrial-Medium.otf") format("opentype"),
+url("../fonts/HagridText-Medium/HagridTextTrial-Medium.svg#svgHagridTextTrial-Medium") format("svg");
+font-style:normal;
+font-weight:bold;
+font-display: swap;
+}
+
+
+
+
+
+
+
+
+
+
+
 @font-face{font-family: "BlackerSansText-Heavy";
 src:url("../fonts/BlackerSansText-Heavy/Blacker-Sans-Text-Heavy.eot");
 src:url("../fonts/BlackerSansText-Heavy/Blacker-Sans-Text-Heavy.eot?#iefix") format('embeddedopentype'),
@@ -113,8 +125,6 @@ font-style:normal;
 font-weight:bold;
 font-display: swap;
 }
-
-
 @font-face{font-family: "HagridVariable";
 src:url("../fonts/HagridVariable/HagridVariable.eot");
 src:url("../fonts/HagridVariable/HagridVariable.eot?#iefix") format('embeddedopentype'),
@@ -127,14 +137,6 @@ font-style:normal;
 font-weight:bold;
 font-display: swap;
 }
-
-
-
-
-
-
-
-
 @font-face{font-family: "Overpass-BlackItalic";
 src:url("../fonts/OverpassBlackitalic/Overpass-BlackItalic.eot");
 src:url("../fonts/OverpassBlackitalic/Overpass-BlackItalic.eot?#iefix") format('embeddedopentype'),
@@ -175,14 +177,29 @@ text-decoration: none;
 .container-fluid {
 padding: 0;
 }
+
+.main__video_block_content_fluid{
+height: 100vh;
+width: 100vw;
+
+}
+
+
+
 .main__video_block {
-overflow: hidden;
 background-color: #dbd5c9;
-position: relative;
+/*background-image: url('../img/rabbit_bg.jpg');
+background-position: bottom bottom;
+background-repeat: no-repeat;
+background-size: cover;*/
+height: 100vh;
+position: sticky;
+top: 0;
+
 }
-.main__navigation{
+/*.main__navigation{
 background-color: #dbd5c9; 
-}
+}*/
 .navbar-brand{
 padding-bottom: 0;
 }
@@ -209,7 +226,7 @@ text-transform: uppercase;
 min-height: 50px;
 margin-bottom: 0;
 border: none;
-background-color: #dbd5c9;
+background-color: transparent;
 }
 ul.nav.navbar-nav {
 float: right;
@@ -218,10 +235,6 @@ float: right;
 ul.nav.navbar-nav>li>a { 
 font-family: 'Montserrat_SemiBold';
 font-size: 20px;
-font-stretch: normal;
-font-style: normal;
-line-height: normal;
-letter-spacing: normal;
 color: #000;
 padding-top: 38px;
 }
@@ -238,9 +251,8 @@ height: 100%;
 }
 .main__activity{
 position: relative;
-font-family: Montserrat-Bold;
+font-family: 'Montserrat-Bold';
 font-size: 25px;
-/*font-weight: bold;*/
 text-transform: uppercase;
 line-height: 2.2;
 letter-spacing: 0.12px;
@@ -278,7 +290,22 @@ cursor: pointer;
 }
 .main_second_section{
 background-color: #93b298;
+position: relative;
+z-index: 18;
+
 }
+
+
+.agency_content{
+background-color: #dbd5c9;	
+}
+
+
+#main_target_block{
+background-color: #93b298;
+}
+
+
 .main_second_section_text {
 font-family: 'HagridTextTrial-Bold';
 font-size: 60px;
@@ -306,35 +333,66 @@ display: inline;
 .main_second_section{
 padding-top: 334px;
 padding-bottom: 94px;
+background-color: #93b298;
 }
 
 
-.main_social {
+/*.main_social {
 font-family: Inter;
 font-size: 24px;
 font-weight: 900;
-font-stretch: normal;
-font-style: normal;
-line-height: normal;
 letter-spacing: 0.2px;
 color: #f3ead5;
 text-transform: uppercase;
 text-align: right;
 margin-top: 60px;
 cursor: pointer;
+}*/
+.social_main_container{
+text-align: right;
+}
+.social_main.write{
+width: 160px;
+height: 160px;
+display: inline-block;
+background-image: url('../img/contacts/write.svg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: contain;	
+transition: all 1s linear;
+margin-right: 25%;
+cursor: pointer;
+}
+.social_main.write:hover{
+background-image: url('../img/contacts/write_hover.svg');
+}
 
+.social_main.call{
+width: 160px;
+height: 160px;
+display: inline-block;
+background-image: url('../img/contacts/call.svg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: contain;	
+transition: all 1s linear;
+cursor: pointer;
+}
+.social_main.call:hover{
+background-image: url('../img/contacts/call_hover.svg');
 }
 
 
-.main_social.write{
-margin-right: 18%;
-}
+
 
 /*футер*/
 .site_footer{
 background-color: #3d3d3d;
 padding-top: 1rem;
 padding-bottom: 1rem;
+position: relative;
+
+z-index: 23;
 }
 .footer_text{
 font-family: 'Montserrat-Light';
@@ -344,16 +402,13 @@ color: #dbd5c9;
 }
 
 /*Главная новостной блок */
-
 .main_news_section{
 padding-top: 137px;
 padding-bottom: 98px; 
 background-color: #dbd5c9;
+position: relative;
+z-index: 21;
 }
-
-
-
-
 .main_news_section__title{
 font-family: HagridTextTrial-Extrabold;
 font-size: 80px;
@@ -363,36 +418,30 @@ line-height: 1.11;
 letter-spacing: 0.5px;
 color: #000;
 margin-bottom: 68px;
-
 }
-
-
 .main_news_section__title>span{
 text-align: right;
 display: block;
 }
-
 .main_news_section_preview{
 display: inline-block;
 max-width: 90%;
+cursor: pointer;
 }
-
-
 .main_news_section_newstitle {
-font-family: Montserrat-Bold;
+font-family: 'Montserrat-Bold';
 font-size: 24px;
-/*font-weight: bold;*/
 line-height: 1.42;
-letter-spacing: normal;
 color: #000;
 text-transform: uppercase;
-
 align-items: center;
 justify-content: center;
+cursor: pointer;
 
 }
 .main_news_section_newstitle.active{
 color: #2b31cf; 
+cursor: default;
 }
 
 #main_news_section_opened{
@@ -401,6 +450,7 @@ padding-top: 89px;
 padding-bottom: 72px; 
 position: relative;
 width: 100%;
+display: none;
 }
 .main_news_section_newstext {
 border-left: 2px solid #000; /* Параметры линии */ 
@@ -487,20 +537,15 @@ text-align: right;
 cursor: pointer;
 }
 /*Страница агентство*/
-.agency__first_block{
+.wrapper_agency{
 background-color: #93b298;	
 }
-.agency__navigation{
-background-color: #93b298;		
-}
+
 .vertical-tab-content{
 display: none;
 }
 .vertical-tab-content.active{
 display: block;
-}
-a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus{
-background-color: #ca6d2d;
 }
 a.list-group-item{
 display: inline-block;
@@ -553,6 +598,7 @@ margin-bottom: 83px;
 }
 .wrapper{
 min-height: 100vh;
+
 }
 .worker_photo{
 width: 90%;
@@ -583,15 +629,28 @@ text-transform: uppercase;
 font-size: 24px;
 color: #000;
 border: none;
+padding-bottom: 32px;
+padding-top: 34px;
+width: 100%;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px;
+padding-right: 0.5%;
+padding-left: 0.5%;
 }
-.nav-tabs>li.active>a.agency_process_menu{
+.catalog_container{
+margin-top: 282px;
+}
+
+
+
+/*.nav-tabs>li.active>a.agency_process_menu{
 font-family: 'Montserrat-Bold';
 font-size: 24px;
 color: #dcd5c8;
 background-color:#ca6d2d;
 border-top-right-radius: 20px; 
 border-bottom-right-radius: 20px;
-}
+}*/
 .nav-tabs>li>a.agency_process_menu{
 display: inline-block;
 padding-top: 30px;
@@ -640,13 +699,26 @@ font-size: 18px;
 line-height: 1.78;
 font-family:"Montserrat_Medium";
 color: #000000;
+margin-bottom: 140px;
+}
+@-webkit-keyframes rotation {
+0% {
+-webkit-transform:rotate(0deg);
+        transform:rotate(0deg);
+}
+100% {
+-webkit-transform:rotate(360deg);
+        transform:rotate(360deg);
+}
 }
 @keyframes rotation {
 0% {
-transform:rotate(0deg);
+-webkit-transform:rotate(0deg);
+        transform:rotate(0deg);
 }
 100% {
-transform:rotate(360deg);
+-webkit-transform:rotate(360deg);
+        transform:rotate(360deg);
 }
 }
 .agency_process_title{
@@ -662,9 +734,71 @@ font-size: 18px;
 font-family: 'Montserrat-Bold';
 color: #000000;
 }
-.container-fluid.agency_staff{
+
+
+
+.process-panel{
+display: none;
+height: 100%;
+
+}
+
+.process-panel.opened{
+height: 100%;
+display: block;
+background-color: #dbd5c9;
+}
+
+.job_process {
+transition: all 3s;
+}
+
+
+
+.job_process:hover{
+cursor:pointer;
+}
+
+.agency_process_menu.active{
+background-color: #ca6d2d;
+}
+.chat_box.agency {
+margin-top: 26%;
+display: inline-block;
+float: left;
+}
+
+
+.chat_box.agency>.chat_box_content {
+background-image: url('../img/orange_cloud.svg');
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center center;
+text-align: center;
+min-height: 91px;
+width: 304px;
+font-family: 'Montserrat_Extrabold';
+font-size: 16px;
+padding-top: 10%;
+color: #f3ead5;
+}
+
+.agency_process_content{
+
 height: 100%;
 }
+
+
+.agency_founders {
+font-family: 'Montserrat-Bold';
+font-size: 36px;
+text-align: right;
+color: #131312;
+text-transform: uppercase;
+margin-top: 173px;
+}
+
+
 
 
 @media (max-width: 768px) {
@@ -695,7 +829,7 @@ margin-bottom: 0;
 background-color: transparent;
 border: none;
 border-radius: none;
-font-family: Montserrat-Bold;
+font-family: 'Montserrat-Bold';
 font-size: 18px;
 /*  font-weight: bold;*/
 font-stretch: normal;
@@ -721,9 +855,6 @@ color: #dbd5c9;
 }
 
 
-.main__video_block {
-/*border-radius: 100px / 50px; */
-}
 
 
 /*Главная страница*/
@@ -811,25 +942,45 @@ display: block;
 background-color: #93b298;
 }
 
+#send_letter {
+background-color: #ca6d2d;
+width: 183px;
+height: 183px;
+transform: rotate(-12deg);
+font-family: 'Montserrat-Bold';
+color: #dcd5c8;
+text-transform: uppercase;
+border-radius: 50%;
+font-size: 21px;
+border: none;
+outline: none;
+position: absolute;
+right: 20px;
+bottom: -150px;
+transition: all 2.5s ease-out;
+}
 
+#send_letter:hover{
+background-color: #263ebf	;
+}
+
+.social:hover{
+cursor: pointer;
+fill: #263ebf; 
+}
 
 
 .contacts_form{
 background-color: #dbd5c9;
-
 padding-top: 9.375rem;
 padding-bottom: 4.625rem;
-margin-bottom: 5.25rem;
+margin-top: 88px;
 position: relative;
-
 }
-
 h2.contacts__headline{
-font-family: 'HagridTextTrial-Bold';
+font-family: 'HagridText-Medium';
+text-transform: uppercase;
 font-size: 80px;
-font-weight: 500;
-font-stretch: normal;
-font-style: normal;
 line-height: 1.6;
 letter-spacing: 0.5px;
 color: #f3ead5;
@@ -880,39 +1031,8 @@ p.contacts_title_right{
 text-align: right;
 }
 
-p.contacts_data_left,
-a.contacts_data_right{
-font-family: 'Avenir-Heavy';
-line-height: 2rem;
-font-size: 1.5rem;
-display: inline-block;
-color:#000;
-}
-a.contacts_data_right:hover;
-a.contacts_data_right:focus,
-a.contacts_data_right:active{
-text-decoration: none;
-color:#000;
-}
-hr.contact_data_line_right, 
-hr.contact_data_line_left{
-display: inline-block;
-width: 2.75rem;
-margin-top: 1rem;
-height: 0.125rem;
-color: #000;
-background-color: #000;
-}
-hr.contact_data_line_left{
-float: right;
-}
-hr.contact_data_line_right{
-float: left;
-}
-hr.contact_data_line_right.invisible_line, 
-hr.contact_data_line_left.invisible_line{
-display: none;
-}
+
+
 .information_block{
 text-align: center;
 width: 75.4%;
@@ -921,19 +1041,8 @@ margin: auto;
 .social_media_block{
 margin-bottom: 6.75rem;
 }
-.contacts_data_right,
-.contacts_data_left
-{
-display: inline-block;
-}
-a.contacts_data_right{
-display: block;
-text-align: right;
-}
-p.contacts_data_left{
-text-align: left;
-display: block;
-}
+
+
 .contacts_form_submit.service_form{
 margin-top: 2.4375rem;
 }
@@ -1029,6 +1138,24 @@ max-width: 26.5625rem;
 }
 
 
+.contacts_data_right{
+font-family: 'Montserrat-Bold';
+  font-size: 22px;
+  color: #000000;
+  text-align: right;
+ 
+}
+
+.flex_contacts{
+display: flex;
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+    align-items: flex-end;
+
+}
+
+
 /*Страница проектов */
 .projects_page{
 background-color: #dbd5c9;
@@ -1040,11 +1167,9 @@ padding-bottom: 95px;
 .projects_slide{
 position: absolute;
 display: none;
-
 -webkit-transition: all 3800ms ease-out;
 -o-transition: all 3800ms ease-out;
 transition: all 3800ms ease-out;
-
 }
 .projects_slide.active_project{
 display: block;
@@ -1063,7 +1188,6 @@ margin-top: 127px;
 margin-top: 7.9375rem;
 cursor: pointer;
 }
-
 .project_overview_image{
 margin-left: 14%;
 max-height: 585px;
@@ -1071,15 +1195,12 @@ width: 90%;
 background-color: #fff;
 cursor: pointer;
 }
-
-
 .project_arrow{
 width: 33.2px;
 height: 55.7px;
 -webkit-transform: rotate(89.56deg);
 -ms-transform: rotate(89.56deg);
 transform: rotate(89.56deg);
-
 font-family: "Overpass-BlackItalic";
 font-size: 40px;
 color: #000;
@@ -1091,7 +1212,6 @@ cursor: pointer;
 #project_slider_prev{
 left: 40px;
 display: none;
-
 -webkit-transform: rotate(-89.56deg);
 -ms-transform: rotate(-89.56deg);
 transform: rotate(-89.56deg);
@@ -1156,21 +1276,11 @@ color: #000;
 text-transform: uppercase;
 padding: 0;
 }
-
-/*.nav-tabs>li.active>a.services_web_menu,
-.nav-tabs>li.active>a.services_web_menu:hover{
-margin: 0;
-padding: 0;
-border:none;
-}
-*/
 .nav-tabs>li>a.services_web_menu:hover,
 .nav-tabs>li>a.services_web_menu{
 background-color: transparent;
 border: none;
 }
-
-
 .nav-tabs>li.active>a.services_web_menu,
 .nav-tabs>li.active>a.services_web_menu:hover {
 color: #dbd5c9;
@@ -1178,15 +1288,11 @@ background-color: #ca6d2d;
 border-top-left-radius: 50px;
 border-bottom-left-radius: 50px;
 }
-
-
 ul.nav.nav-tabs.blocked_tabs>li{
 display: block;
 width: 100%;
 text-align: center;
 }
-
-
 .nav-tabs>li.active>a.service_main_menu, 
 .nav-tabs>li.active>a.service_main_menu:hover,
 .nav-tabs>li.active>a.service_main_menu:focus {
@@ -1198,10 +1304,10 @@ cursor: default;
 position: relative;  
 }
 .service_web_gallery_img{
-display: block;
-margin: auto;
-border: 1rem solid #c5beb0;
-border-radius: 6px;
+position: absolute;
+top: -33%;
+right: 0;
+width: 60%;
 }
 .service_web_description{
 max-width: 555px;
@@ -1211,22 +1317,17 @@ line-height: 1.86;
 letter-spacing: normal;
 color: #000;
 text-align: left;
-
 }
-
 .web_title{
 font-family:"Montserrat-Bold";
 font-size: 3rem;
 text-align: center;
 color: #000;
 }
-
-
 .web_text {
 max-width: 543px;
 font-family:"Montserrat_Medium";
 font-size: 20px;
-
 font-stretch: normal;
 font-style: normal;
 line-height: 1.6;
@@ -1252,6 +1353,106 @@ font-size: 16px;
 padding-top: 10%;
 color: #f3ead5;
 }
+.projects_title{
+font-family: 'HagridTextTrial-Bold';
+font-size: 80px;
+line-height: 1.6;
+letter-spacing: 0.5px;
+color: #000000;
+text-align: left;
+margin-bottom: 30px;
+text-transform: uppercase;
+}
+.projects_category{
+text-align: right;
+font-family:"Montserrat-Bold";
+font-size: 16px;
+color: #000000;
+margin-bottom: 85px;
+}
+.projects_category>span{
+display: inline-block;
+margin-left: 8%;
+}
+.projects_banner {
+width: 100vw;
+height: 585px;
+background-color: #d8d8d8;
+margin-bottom: 81px;
+}
+.projects_description{
+font-family: HelveticaNeue;
+font-size: 30px;
+line-height: 1.6;
+color: #000000;
+max-width: 860px;
+margin-bottom: 81px;
+}
+.projects_description.desc2{
+margin-bottom: 147px;
+}
+.projects_photo{
+padding-top: 160px;
+padding-bottom: 160px;
+margin-bottom: 81px;
+height: 100%;
+}
+.photos_projects{
+display: block;
+height: auto;
+margin: auto;
+}
+.video_projects{
+width: 100vw;
+height: 745px;
+background-color: #d8d8d8;
+margin-bottom: 294px;
+}
+.projects_link{
+font-family:"Montserrat-Bold";
+font-size: 16px;
+color: #000000;
+text-align: center;
+text-transform: uppercase;
+padding-top: 32px;
+}
+.back_projects {
+text-align: left;
+}
+.current_project{
+text-align: left;
+font-family: 'HagridTextTrial-Bold';
+font-size: 48px;
+letter-spacing: 0.5px;
+color: #263ebf;
+margin-bottom: 39px;
+text-transform: uppercase;
+line-height: 1;
+}
+.projects_arrow {
+font-family: Overpass;
+font-size: 40px;
+color: #263ebf;
+text-align: right;
+}
+
+.projects_template{
+display: none;
+}
+
+#branding, #web{
+position: relative;
+}
+
+
+.sticers{
+	display: inline-block;
+	max-width: 180px;
+	margin-bottom: 80px;
+}
+
+
+
 /*Страница 404*/
 .dead_page,
 .no_page__navigation{
@@ -1260,7 +1461,7 @@ background-color: #abbe7b;
 
 
 .no_page_navigation {
-    background-color: #abbe7b;
+background-color: #abbe7b;
 }
 
 
@@ -1275,28 +1476,46 @@ margin-top: 0;
 }
 .in_dev{
 font-family:"Montserrat-Bold";
-  font-size: 21px;
-  line-height: 1.86;
-  text-align: center;
-  color: #f3ead5;
-  max-width: 501px;
-  margin: auto;
-  margin-bottom: 58px;
+font-size: 21px;
+line-height: 1.86;
+text-align: center;
+color: #f3ead5;
+max-width: 501px;
+margin: auto;
+margin-bottom: 58px;
 }
 
 
 a.back_to_main_page {
 font-family:"Montserrat-Bold";
-  font-size: 40px;
-  text-transform: uppercase;
-  display: block;
-  color: #263ebf;
-  text-align: center;
-  margin-bottom: 85px;
+font-size: 40px;
+text-transform: uppercase;
+display: block;
+color: #263ebf;
+text-align: center;
+margin-bottom: 85px;
 }
 
 .rab_no_page{
 display: block;
 margin: auto;
 margin-bottom: 31px;
+}
+.job_activity_menu {	
+	text-align: justify;
+	margin-bottom: 90px;
+}
+.job_activity_menu:before{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 0;
+}
+.job_activity_menu:after {
+	content: '';
+	display: inline-block;    
+	width: 100%;
+	height: 0;
+	visibility: hidden;
+	overflow: hidden;
 }

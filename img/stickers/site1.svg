@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 242.5132 266.1841">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7b9eb0;
+      }
+
+      .cls-2, .cls-7 {
+        fill: #dbd5c9;
+        stroke: #7b9eb0;
+        stroke-miterlimit: 10;
+        stroke-width: 2.7687px;
+      }
+
+      .cls-3, .cls-5 {
+        font-size: 27.6868px;
+        fill: #263ebf;
+        font-family: HelveticaNeue-BoldItalic, Helvetica Neue;
+        font-style: italic;
+      }
+
+      .cls-3, .cls-5, .cls-7 {
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-7 {
+        font-size: 124.3727px;
+        font-family: Montserrat-Bold, Montserrat;
+      }
+    </style>
+  </defs>
+  <title>Ресурс 21</title>
+  <g id="Слой_2" data-name="Слой 2">
+    <g id="Слой_1-2" data-name="Слой 1">
+      <ellipse class="cls-1" cx="118.0007" cy="113.4431" rx="119.8387" ry="54.1946" transform="translate(-19.9468 25.3297) rotate(-11.3036)"/>
+      <path class="cls-2" d="M57.6059,168.7478a25.5741,25.5741,0,0,0-2.5155-9.0884c-2.5774-5.8054-5.0628-11.7689-5.3717-16.373-.3508-5.2281,9.0506-10.7359,24.3336-19.762,0,0,9.4736-72.715,95.5251-121.6424C182.5788-5.51,149.9368,71.0935,97.0606,122.9482c-2.1917,2.1494,17.8069-8.45,33.52-15.8813C173.5784,86.7313,241.1288,71.9928,241.1288,76.756s-24.067,41.3651-130.226,62.1526c0,0,12.4209,6.5588,26.3947,23.09,1.9963,2.3617-22.94,6.024-44.9776,7.7055C77.1861,170.8593,57.6059,168.7478,57.6059,168.7478Z"/>
+      <g>
+        <text class="cls-3" transform="translate(73.712 148.8348) rotate(-11.1654)">О<tspan class="cls-4" x="20.71" y="0">Т 150 000</tspan></text>
+        <text class="cls-5" transform="translate(15.5554 132.1158) rotate(-11.1654)"><tspan class="cls-6">С</tspan><tspan x="19.9624" y="0">ТОИМО</tspan><tspan class="cls-6" x="125.6978" y="0">С</tspan><tspan x="145.6602" y="0">ТЬ</tspan></text>
+      </g>
+      <text class="cls-7" transform="translate(162.8283 231.9028) rotate(-8.7008)">*</text>
+    </g>
+  </g>
+</svg>

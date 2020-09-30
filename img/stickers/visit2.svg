@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198.0909 198.0909">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b88903;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #ca6d2d;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: 2px;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-2, .cls-20, .cls-21, .cls-22, .cls-23, .cls-3, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: #dbd5c9;
+      }
+
+      .cls-2 {
+        stroke-width: 1.4153px;
+      }
+
+      .cls-3 {
+        font-size: 26.5337px;
+        stroke: #e23800;
+        font-family: Montserrat-BlackItalic, Montserrat;
+        font-style: italic;
+        letter-spacing: -0.023em;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.023em;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        isolation: isolate;
+        font-family: HelveticaNeue-Bold, Helvetica Neue;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        font-size: 10.0922px;
+        letter-spacing: 0.005em;
+      }
+
+      .cls-6 {
+        font-size: 10.0918px;
+        letter-spacing: 0.005em;
+      }
+
+      .cls-7 {
+        font-size: 10.9191px;
+        letter-spacing: 0.005em;
+      }
+
+      .cls-21, .cls-8 {
+        font-size: 10.9191px;
+      }
+
+      .cls-8 {
+        letter-spacing: 0.005em;
+      }
+
+      .cls-14, .cls-9 {
+        font-size: 10.9191px;
+      }
+
+      .cls-9 {
+        letter-spacing: 0.005em;
+      }
+
+      .cls-10 {
+        font-size: 10.9198px;
+        letter-spacing: 0.005em;
+      }
+
+      .cls-11 {
+        font-size: 10.9185px;
+        letter-spacing: 0.005em;
+      }
+
+      .cls-12 {
+        font-size: 10.0922px;
+        letter-spacing: 0.005em;
+      }
+
+      .cls-13 {
+        font-size: 10.9191px;
+        letter-spacing: 0.005em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0.005em;
+      }
+
+      .cls-15 {
+        font-size: 10.9198px;
+        letter-spacing: 0.005em;
+      }
+
+      .cls-16 {
+        font-size: 10.0917px;
+        letter-spacing: 0.0049em;
+      }
+
+      .cls-17 {
+        font-size: 10.9191px;
+        letter-spacing: 0.005em;
+      }
+
+      .cls-18 {
+        font-size: 10.9197px;
+        letter-spacing: 0.005em;
+      }
+
+      .cls-19 {
+        font-size: 10.0922px;
+        letter-spacing: 0.005em;
+      }
+
+      .cls-20 {
+        font-size: 10.0921px;
+        letter-spacing: 0.005em;
+      }
+
+      .cls-21 {
+        letter-spacing: 0.005em;
+      }
+
+      .cls-22 {
+        font-size: 10.9189px;
+        letter-spacing: 0.005em;
+      }
+
+      .cls-23 {
+        font-size: 10.9188px;
+        letter-spacing: 0.005em;
+      }
+
+      .cls-24 {
+        fill: #e23800;
+      }
+    </style>
+  </defs>
+  <title>Ресурс 18</title>
+  <g id="Слой_2" data-name="Слой 2">
+    <g id="Слой_3" data-name="Слой 3">
+      <rect class="cls-1" x="19.8292" y="19.8292" width="158.4326" height="158.4326" rx="33.7586" ry="33.7586" transform="translate(-41.026 99.0455) rotate(-45)"/>
+      <path class="cls-2" d="M96.4026,167.4781c.0479,6.5812,1.19,19.4125.76,29.4114a41.1673,41.1673,0,0,1-7.26-.9412,25.4342,25.4342,0,0,1-6.79-2.6251,147.8366,147.8366,0,0,1-2.4665-26.9671c.0091-12.233,5.0144-35.0632,13.5856-35.3478C100.822,130.7895,96.26,147.9088,96.4026,167.4781Z"/>
+      <path class="cls-2" d="M104.932,165.2676c-6.1769,14.9606-7.615,24.9471-6.989,31.6219a43.7816,43.7816,0,0,0,6.9652-.3744,33.522,33.522,0,0,0,6.5228-1.5281c2.1924-7.7815,5.6737-18.8717,11.56-34.2134,4.7373-12.3478,8.6067-22.728,5.6586-24.1734C125.5914,135.101,116.659,136.8644,104.932,165.2676Z"/>
+      <text class="cls-3" transform="matrix(0.994, -0.1097, 0.1097, 0.994, 72.0878, 86.695)">СТО<tspan class="cls-4"><tspan x="-4.7363" y="20.1016">ИМО</tspan></tspan><tspan x="1.4194" y="40.2041">СТЬ</tspan></text>
+      <g id="Слой_2-2" data-name="Слой 2">
+        <g id="Слой_1-2" data-name="Слой 1-2">
+          <text class="cls-5" transform="translate(43.7948 97.4889) rotate(-86.2372)">О</text>
+          <text class="cls-6" transform="translate(44.3309 89.6867) rotate(-79.2452)">Т</text>
+          <text class="cls-7" transform="matrix(0.3572, -0.934, 0.934, 0.3572, 46.476, 79.8567)">6</text>
+          <text class="cls-8" transform="matrix(0.4673, -0.8841, 0.8841, 0.4673, 48.9897, 73.2498)">0</text>
+          <text class="cls-9" transform="translate(54.2194 64.0005) rotate(-51.7734)">0</text>
+          <text class="cls-10" transform="translate(58.5829 58.4401) rotate(-44.9149)">0</text>
+          <text class="cls-11" transform="translate(63.5949 53.4249) rotate(-38.0343)">0</text>
+          <text class="cls-12" transform="matrix(0.9146, -0.4043, 0.4043, 0.9146, 75.2074, 45.3602)">О</text>
+          <text class="cls-12" transform="translate(82.3744 42.2202) rotate(-16.7888)">Т</text>
+          <text class="cls-8" transform="translate(92.069 39.5772) rotate(-6.6572)">6</text>
+          <text class="cls-13" transform="translate(99.1068 38.6988) rotate(0.9286)">0</text>
+          <text class="cls-14" transform="translate(109.7146 39.0735) rotate(10.4871)">0</text>
+          <text class="cls-15" transform="translate(116.6911 40.353) rotate(17.4566)">0</text>
+          <text class="cls-8" transform="translate(123.4498 42.4639) rotate(24.4153)">0</text>
+          <text class="cls-16" transform="matrix(0.7816, 0.6237, -0.6237, 0.7816, 135.9649, 49.0279)">О</text>
+          <text class="cls-12" transform="matrix(0.7002, 0.7139, -0.7139, 0.7002, 142.0614, 53.9283)">Т</text>
+          <text class="cls-17" transform="matrix(0.5648, 0.8252, -0.8252, 0.5648, 148.9198, 61.3042)">6</text>
+          <text class="cls-18" transform="translate(152.9313 67.1429) rotate(62.5304)">0</text>
+          <text class="cls-17" transform="translate(157.5553 76.6813) rotate(72.944)">0</text>
+          <text class="cls-13" transform="translate(159.647 83.4639) rotate(79.9175)">0</text>
+          <text class="cls-17" transform="translate(160.8964 90.4256) rotate(86.8029)">0</text>
+          <text class="cls-19" transform="translate(160.8983 104.5643) rotate(100.8704)">О</text>
+          <text class="cls-20" transform="translate(159.4017 112.2143) rotate(107.8968)">Т</text>
+          <text class="cls-7" transform="matrix(-0.4707, 0.8823, -0.8823, -0.4707, 156.0431, 121.7249)">6</text>
+          <text class="cls-21" transform="translate(152.7207 127.979) rotate(124.9892)">0</text>
+          <text class="cls-21" transform="translate(146.3948 136.4969) rotate(135.3)">0</text>
+          <text class="cls-22" transform="translate(141.365 141.4925) rotate(142.1778)">0</text>
+          <text class="cls-23" transform="matrix(-0.8577, 0.5141, -0.5141, -0.8577, 135.7862, 145.8359)">0</text>
+        </g>
+      </g>
+    </g>
+    <g id="Слой_2-3" data-name="Слой 2">
+      <path class="cls-24" d="M31.2163,118.2668s-1.6493,24.009,1.9943,27.154,27.154-1.9943,27.154-1.9943-24.009-1.6493-27.154,1.9943,1.9943,27.154,1.9943,27.154,1.6493-24.009-1.9943-27.154-27.154,1.9943-27.154,1.9943,24.009,1.6493,27.154-1.9943S31.2163,118.2668,31.2163,118.2668Z"/>
+    </g>
+  </g>
+</svg>
