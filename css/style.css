@@ -51,6 +51,31 @@ font-style:normal;
 font-weight:normal;
 font-display: swap;
 }
+@font-face{font-family:"MontserratBoldItalic";
+src:url("../fonts/Montserrat-BoldItalic/montserrat_bold_italic.eot");
+src:url("../fonts/Montserrat-BoldItalic/montserrat_bold_italic?#iefix") format('embeddedopentype'),
+url("../fonts/Montserrat-BoldItalic/montserrat_bold_italic.woff2") format("woff2"),
+url("../fonts/Montserrat-BoldItalic/montserrat_bold_italic.woff") format("woff"),
+url("../fonts/Montserrat-BoldItalic/montserrat_bold_italic.ttf") format("truetype"),
+url("../fonts/Montserrat-BoldItalic/Montserrat-BoldItalic.otf") format("opentype"),
+url("../fonts/Montserrat-BoldItalic/montserrat_bold_italic.svg#svgmontserrat_bold_italic") format("svg");
+font-style:normal;
+font-weight:normal;
+font-display: swap;
+}
+@font-face{font-family: "HelveticaNeue";
+src:url("../fonts/HelveticaNeue/helveticaneuecyr-light.eot");
+src:url("../fonts/HelveticaNeue/helveticaneuecyr-light?#iefix") format("embeddedopentype"),
+url("../fonts/HelveticaNeue/helveticaneuecyr-light.woff2") format("woff2"),
+url("../fonts/HelveticaNeue/helveticaneuecyr-light.woff") format("woff"),
+url("../fonts/HelveticaNeue/helveticaneuecyr-light.ttf") format("truetype"),
+url("../fonts/HelveticaNeue/HelveticaNeueCyr-Light.otf") format("opentype"),
+url("../fonts/HelveticaNeue/helveticaneuecyr-light.svg#svghelveticaneuecyr-light") format("svg");
+font-style:normal;
+font-weight:normal;
+font-display: swap;
+}
+
 @font-face{font-family:"Montserrat-Light";
 src:url("../fonts/Montserrat-Light/Montserrat_Light.eot");
 src:url("../fonts/Montserrat-Light/Montserrat-Light.eot?#iefix") format("embeddedopentype"),
@@ -88,8 +113,6 @@ font-weight:bold;
 font-display: swap;
 }
 
-
-
 @font-face{font-family: "HagridText-Medium";
 src:url("../fonts/HagridText-Medium/HagridText-Medium.eot");
 src:url("../fonts/HagridText-Medium/HagridText-Medium.eot?#iefix") format('embeddedopentype'),
@@ -102,17 +125,6 @@ font-style:normal;
 font-weight:bold;
 font-display: swap;
 }
-
-
-
-
-
-
-
-
-
-
-
 @font-face{font-family: "BlackerSansText-Heavy";
 src:url("../fonts/BlackerSansText-Heavy/Blacker-Sans-Text-Heavy.eot");
 src:url("../fonts/BlackerSansText-Heavy/Blacker-Sans-Text-Heavy.eot?#iefix") format('embeddedopentype'),
@@ -149,25 +161,18 @@ font-style:normal;
 font-weight:normal;
 font-display: swap;
 }
-
 html{
 overflow-x: hidden;
 color: #000;
+width: 100%;
 }
-
-
 p, h1, h2, h3{
 margin-bottom: 0;
 margin-top: 0;
 }
-
 a:hover{
 text-decoration: none;
 }
-
-
-
-
 .col-md-6,
 .col-md-12,
 .col-md-4,
@@ -177,15 +182,10 @@ text-decoration: none;
 .container-fluid {
 padding: 0;
 }
-
 .main__video_block_content_fluid{
 height: 100vh;
 width: 100vw;
-
 }
-
-
-
 .main__video_block {
 background-color: #dbd5c9;
 /*background-image: url('../img/rabbit_bg.jpg');
@@ -238,6 +238,22 @@ font-size: 20px;
 color: #000;
 padding-top: 38px;
 }
+
+
+ul.nav.navbar-nav>li>a:focus,
+ul.nav.navbar-nav>li>a:active { 
+color: #263ebf;
+outline: none;
+}
+
+ul.nav.navbar-nav>li>a.active{
+color: #263ebf;
+cursor: default;	
+}
+
+
+
+
 /* VIDEO */
 .video {
 top: 50%;
@@ -539,7 +555,22 @@ cursor: pointer;
 /*Страница агентство*/
 .wrapper_agency{
 background-color: #93b298;	
+position: relative;
 }
+
+.wrapper_agency:after{
+width: 100%;
+height: 233px;
+content: "";
+background-color: #93b298;
+position: absolute;
+bottom: -233px;
+border-bottom-left-radius: 40%;
+border-bottom-right-radius: 40%;
+z-index: 1;
+}
+
+
 
 .vertical-tab-content{
 display: none;
@@ -551,10 +582,8 @@ a.list-group-item{
 display: inline-block;
 }
 .agency__title {
-font-family: 'HagridTextTrial-Bold';
+font-family: 'HagridText-Medium';
 font-size: 80px;
-font-weight: 500;
-font-style: bold;
 line-height: 1.6;
 letter-spacing: 0.5px;
 color: #f3ead5;
@@ -607,7 +636,7 @@ width: 90%;
 margin-bottom: 296px;
 }
 .agency_main_stream {
-font-family: 'HagridTextTrial-Bold';
+font-family: 'HagridText-Medium';
 font-size: 80px;
 line-height: 1.6;
 letter-spacing: 0.5px;
@@ -699,8 +728,17 @@ font-size: 18px;
 line-height: 1.78;
 font-family:"Montserrat_Medium";
 color: #000000;
+
+}
+
+
+.panels_content{
+height: 100%;
 margin-bottom: 140px;
 }
+
+
+
 @-webkit-keyframes rotation {
 0% {
 -webkit-transform:rotate(0deg);
@@ -801,136 +839,7 @@ margin-top: 173px;
 
 
 
-@media (max-width: 768px) {
-/*навигация и брендинг*/
-.navbar-brand>span{
-display: none;
-}
-.black_white_logo {
-display: block;
-width: 45px;
-height: 45px;
-margin: auto;
-}
-.navbar-brand{
-width: 100vw;
-display: block;
-}
 
-.navbar-toggle {
-position: absolute;
-left: 0;
-top: 30px;
-float: none;
-padding: 0;
-margin-top: 0;
-margin-right: 0;
-margin-bottom: 0;
-background-color: transparent;
-border: none;
-border-radius: none;
-font-family: 'Montserrat-Bold';
-font-size: 18px;
-/*  font-weight: bold;*/
-font-stretch: normal;
-font-style: normal;
-line-height: normal;
-letter-spacing: normal;
-color: #000;
-text-transform: uppercase;
-cursor: pointer;
-}
-
-/*футер */
-
-.footer_text{
-font-family: Montserrat;
-font-size: 10px;
-font-weight: 300;
-font-stretch: normal;
-font-style: normal;
-line-height: normal;
-letter-spacing: normal;
-color: #dbd5c9;
-}
-
-
-
-
-/*Главная страница*/
-.video
-{
-width: 200%;
--webkit-transform: rotate(-90deg);
--ms-transform: rotate(-90deg);
-transform: rotate(-90deg);
-margin-left: -50%;
-
-}
-
-
-.main__activity {
-font-size: 1rem;
-font-weight: 800;
-line-height: 2.19;
-letter-spacing: 0.08px;
-}
-/*
-Второй блок главной */
-.main_second_section {
-padding-top: 108px;
-padding-bottom: 70px;    
-}
-
-.main_second_section_rabbit {
-display: none;
-}
-
-
-.main_second_section_text {
-font-size: 23px;
-line-height: 1.35;
-letter-spacing: 0.2px;
-color: #f3ead5;
-display: inline;
-text-transform: uppercase;
-float: right;
-}
-
-
-/*Главная новости*/
-.main_news_section {
-padding-top: 42px;
-padding-bottom: 53px;
-}
-
-
-.main_news_section__title {
-font-size: 40px;
-line-height: 2.23;
-letter-spacing: 0.25px;
-}
-
-.main_news_section_newstitle {
-font-size: 20px;
-line-height: 1.2;
-text-align: center;
-margin-top: 27px;
-margin-bottom: 60px;
-display: block;
-
-}
-
-.main_news_line{
-display: block;
-margin-bottom: 30px;
-}
-
-.main_news_line>.col-md-7{
-display: block;
-}
-
-}
 
 
 
@@ -1145,7 +1054,6 @@ font-family: 'Montserrat-Bold';
   text-align: right;
  
 }
-
 .flex_contacts{
 display: flex;
 display: -webkit-box;
@@ -1154,8 +1062,6 @@ display: -ms-flexbox;
     align-items: flex-end;
 
 }
-
-
 /*Страница проектов */
 .projects_page{
 background-color: #dbd5c9;
@@ -1353,6 +1259,15 @@ font-size: 16px;
 padding-top: 10%;
 color: #f3ead5;
 }
+.chat_box.no_page>.chat_box_content {
+background-image: url('../img/yellow_cloud.svg');
+color: #263ebf;
+background-size: contain;
+padding-top: 10%;
+}
+.chat_box.no_page{
+margin-top: 293px;
+}
 .projects_title{
 font-family: 'HagridTextTrial-Bold';
 font-size: 80px;
@@ -1458,19 +1373,12 @@ position: relative;
 .no_page__navigation{
 background-color: #abbe7b;
 }
-
-
-.no_page_navigation {
-background-color: #abbe7b;
-}
-
-
 .no_page_container{
 position: relative;
 }
 .chat_box.no_page{
 position: absolute;
-top: 30px;
+top: 130px;
 right: 17%;
 margin-top: 0;
 }
